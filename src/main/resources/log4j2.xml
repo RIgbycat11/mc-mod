@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration packages="com.mojang.util,com.mojang.minecraft.util">
+    <Appenders>
+        <Console name="SysOut" target="SYSTEM_OUT"/>
+    </Appenders>
+    <Loggers>
+        <Logger level="INFO" name="com.rigbycat11.optimizedmod"/>
+        <Root level="INFO">
+            <AppenderRef ref="SysOut"/>
+        </Root>
+    </Loggers>
+</Configuration>
