@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "optimized_mod",
+  "version": "${version}",
+  "name": "Optimized Mod",
+  "description": "High-performance server-side Fabric mod with best practices",
+  "authors": [
+    "RIgbycat11"
+  ],
+  "contact": {
+    "homepage": "https://github.com/RIgbycat11/mc-mod",
+    "sources": "https://github.com/RIgbycat11/mc-mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.rigbycat11.optimizedmod.OptimizedMod"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}
